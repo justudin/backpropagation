@@ -13,7 +13,7 @@
 			  <table class="table table-bordered table-hover">
                 <thead>
                    <tr>
-					<th>ID_TR</th>
+					<th>NO.</th>
 					<th>IR_P</th>
 					<th>IR_A</th>
 					<th>IR_N</th>
@@ -38,6 +38,7 @@
                 <tbody>
 				<?php
 				//dt_testing
+				$no=1;
 				$query = "select * from dt_training";
 				$exec_query = mysql_query($query);
 				$tot=0;
@@ -45,7 +46,7 @@
 				{
 					echo "
 					<tr>
-						<td>$row[0]</td>
+						<td>$no</td>
 						<td>$row[1]</td>
 						<td>$row[2]</td>
 						<td>$row[3]</td>
@@ -67,6 +68,7 @@
 						<td>$row[19]</td>
 				  </tr>";
 				  $tot++;
+				  $no++;
 				}
 				?>
                 </tbody>

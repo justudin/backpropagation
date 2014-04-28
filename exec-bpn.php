@@ -345,6 +345,18 @@ if($_POST){
 		}
 	}
 
+	//converter for result
+	public function result_conv($res)
+	{
+		//echo $res;
+		if($res>=0.5){
+			$sts = "Bankruptcy";
+		}else{
+			$sts = "Non-Bankruptcy";
+		}
+		return $sts;
+	}
+
 	public function Run($data,$testData,$numEpoch,$Thresh)
 	{
 		/* --- Threshhold - thresh (value of target mse, training stops once it is achieved) */
@@ -431,10 +443,11 @@ if($_POST){
 			
 			for($j=0;$j<$NumInput-1;$j++)
 			{
-				echo $testData[$i][$j]."  ";
+				echo $testData[$i][$j]." || ";
 			}
-						
-			echo (double)$this->Out(0);	
+			$result = (double)$this->Out(0);		
+			echo "Result: <b>".$result."</b>";	
+			echo "- Prediction Result: <b>".$this->result_conv($result)."</b>";	
 		}
 	}
 

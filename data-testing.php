@@ -12,8 +12,7 @@
               <table class="table table-bordered table-hover">
                 <thead>
                    <tr>
-					<th>ID</th>
-					<th>ID_TR</th>
+					<th>NO.</th>
 					<th>IR_P</th>
 					<th>IR_A</th>
 					<th>IR_N</th>
@@ -38,14 +37,14 @@
                 <tbody>
 				<?php
 				//dt_testing
+				$no=1;
 				$query = "select * from dt_testing";
 				$exec_query = mysql_query($query);
 				while ($row = mysql_fetch_array($exec_query))
 				{
 					echo "
 					<tr>
-						<td>$row[0]</td>
-						<td>$row[1]</td>
+						<td>$no</td>
 						<td>$row[2]</td>
 						<td>$row[3]</td>
 						<td>$row[4]</td>
@@ -66,6 +65,7 @@
 						<td>$row[19]</td>
 						<td>$row[21]</td>
 				  </tr>";
+				  $no++;
 				}
 				?>
                   
