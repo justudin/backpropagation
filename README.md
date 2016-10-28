@@ -6,7 +6,7 @@
    	-- Date:      February 2014
 
 3. Past Usage:
-	The attributes or parameters which we used for collecting the dataset is referred from the paper"The discovery of experts’ 
+	The attributes or parameters which we used for collecting the dataset is referred from the paper"The discovery of expertsâ€™ 
 	decision rules from qualitative bankruptcy data using backpropagation algorithms" by Muhammad Syafrudin*, Alex Syaekhoni.
  
 4. Number of Instances: 250 
