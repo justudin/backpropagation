@@ -1,29 +1,30 @@
-1. Title: Qualitative Bankruptcy using backpropagation algorithm
+##1. Title: Qualitative Bankruptcy using backpropagation algorithm
 
-2. Source Information
-   	-- Creator:  Martin.A, Uthayakumar.j and Nadarajan.m
-  	-- Guided By: Dr.V.Prasanna Venkatesan
-   	-- Date:      February 2014
+##2. Source Information
+-- Creator:  Martin.A, Uthayakumar.j and Nadarajan.m
+-- Guided By: Dr.V.Prasanna Venkatesan
+-- Date:      February 2014
 
-3. Past Usage:
-	The attributes or parameters which we used for collecting the dataset is referred from the paper"The discovery of experts’ 
-	decision rules from qualitative bankruptcy data using backpropagation algorithms" by Muhammad Syafrudin*, Alex Syaekhoni.
+##3. Past Usage:
+The attributes or parameters which we used for collecting the dataset is referred from the paper"The discovery of experts’ 
+decision rules from qualitative bankruptcy data using backpropagation algorithms" by Muhammad Syafrudin*, Alex Syaekhoni.
  
-4. Number of Instances: 250 
- 
-5. Number of Attributes: 6, each corresponding to Qualitative Parameters in Bankruptcy
- 
-6. Attribute Information: (P=Positive,A-Average,N-negative,B-Bankruptcy,NB-Non-Bankruptcy)
- 
-     1. Industrial Risk: {P,A,N}
-     2. Management Risk: {P,A,N}
-     3. Financial Flexibility: {P,A,N}
-     4. Credibility: {P,A,N}
-     5. Competitiveness: {P,A,N}
-     6. Operating Risk: {P,A,N}
-     7. Class: {B,NB}
+##4. Number of Instances: 250 
 
-Internal Risks: 	
+##5. Number of Attributes: 6, each corresponding to Qualitative Parameters in Bankruptcy
+ 
+##6. Attribute Information: (P=Positive,A-Average,N-negative,B-Bankruptcy,NB-Non-Bankruptcy)
+
+1. Industrial Risk: {P,A,N}
+2. Management Risk: {P,A,N}
+3. Financial Flexibility: {P,A,N}
+4. Credibility: {P,A,N}
+5. Competitiveness: {P,A,N}
+6. Operating Risk: {P,A,N}
+7. Class: {B,NB}
+
+###Internal Risks:
+
 i.Industry risk (IR) : 
 	Government policies and International agreements, 
 	Cyclicality, 
@@ -63,13 +64,12 @@ vi.Operating Risk (OP):
 	Collection of A/R,
 	Effectiveness of sale network.
  
-7. Missing Attribute Values: None
+##7. Missing Attribute Values: None
  
-8. Class Distribution: [143 instances For Non-Bankruptcy] [107 instances For Bankruptcy]
-        Information about the dataset
-  	CLASSTYPE: nominal
+##8. Class Distribution: 
+[143 instances For Non-Bankruptcy] [107 instances For Bankruptcy]
+Information about the dataset
+CLASSTYPE: nominal
 
-
-
-
-*Coded and implemented on PHP by justudin <just.udin@yahoo.com>
+##Note
+Coded and implemented on PHP by justudin
