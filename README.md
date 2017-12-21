@@ -1,75 +1,14 @@
-##1. Title: Qualitative Bankruptcy using backpropagation algorithm
+## BackPropagation
+Neural Network - BackPropagation for Qualitative Bankruptcy Prediction implemented in PHP Web-Based
 
-##2. Source Information
--- Creator:  Martin.A, Uthayakumar.j and Nadarajan.m
--- Guided By: Dr.V.Prasanna Venkatesan
--- Date:      February 2014
+## Source of the Data
 
-##3. Past Usage:
-The attributes or parameters which we used for collecting the dataset is referred from the paper"The discovery of experts’ 
-decision rules from qualitative bankruptcy data using backpropagation algorithms" by Muhammad Syafrudin*, Alex Syaekhoni.
- 
-##4. Number of Instances: 250 
+[Qualitative Bankruptcy](https://www.openml.org/d/1495)
 
-##5. Number of Attributes: 6, each corresponding to Qualitative Parameters in Bankruptcy
- 
-##6. Attribute Information: (P=Positive,A-Average,N-negative,B-Bankruptcy,NB-Non-Bankruptcy)
+## How to use?
+- Fork, Clone, and Download this project, then place to www directory in Apache web-server.
+- Import the *bankcruptcy.sql* into your MySQL database server 
+- Change the *config.php* file with your own database location, database name, database user, and database password
+## License
 
-1. Industrial Risk: {P,A,N}
-2. Management Risk: {P,A,N}
-3. Financial Flexibility: {P,A,N}
-4. Credibility: {P,A,N}
-5. Competitiveness: {P,A,N}
-6. Operating Risk: {P,A,N}
-7. Class: {B,NB}
-
-###Internal Risks:
-
-i.Industry risk (IR) : 
-	Government policies and International agreements, 
-	Cyclicality, 
-	Degree of competition,				
-	The price and stability of market supply,
-	The size and growth of market demand,	
-	The sensitivity to changes in macroeconomic factors,
-	Domestic and international competitive power, 
-	Product Life Cycle.
-ii.Management risk(MR): 
-	Ability and competence of management, 
-	Stability of management,
-	The relationship between management/ owner, 
-	Human resources management, 
-	Growth process/business performance, 
-	Short and long term business planning, 
-	achievement and feasibility. 
-iii.Financial Flexibility(FF): 
-	Direct financing, 
-	Indirect financing, 
-	Other financing 
-iv.Credibility (CR):  
-	Credit history,  
-	reliability of information, 
-	The relationship with financial institutes.
-v.Competitiveness (CO):  
-	Market position, 
-	The level of core capacities, 
-	Differentiated strategy, 
-vi.Operating Risk (OP):  
-	The stability and diversity of procurement, 
-	The stability of transaction, 
-	The efficiency of production, 
-	The prospects for demand for product and service, 
-	Sales diversification,
-	Sales price and settlement condition, 
-	Collection of A/R,
-	Effectiveness of sale network.
- 
-##7. Missing Attribute Values: None
- 
-##8. Class Distribution: 
-[143 instances For Non-Bankruptcy] [107 instances For Bankruptcy]
-Information about the dataset
-CLASSTYPE: nominal
-
-##Note
-Coded and implemented on PHP by justudin
+&copy; 2014 [Muhammad Syafrudin](https://justudin.com)
